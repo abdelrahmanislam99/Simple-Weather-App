@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,  'open Sans',serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.parent-section{
+  background: url('./imgs/weatherApp.png');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 85%;
+  margin: auto;
+}
+
+.weather-span{
+  font-weight:  bold;
+}
+
+.weather-span:last-child{
+  color: black;
+  font-weight:  bold;
+}
+
+
+
+.weather-para:last-child{
+  border: 0;
+  color: red;
+  font-weight: bold;
+}
+
+.weather-para{
+  border-bottom: solid 2px orchid;
+  font-weight:  bold;
+}
